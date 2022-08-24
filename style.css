@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-website{
+    width: 1024px;
+    margin: auto;
+}
+
+/* This is manu section  */
+
+.full-website .manu-div{
+    background-color: black;
+}
+.full-website .manu-div ul.first-ul{
+    text-align: center;
+    padding: 40px;
+}
+.full-website .manu-div ul li{
+    display: inline-block;
+    position: relative;
+}
+.full-website .manu-div ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+}
+.full-website .manu-div ul li a:hover{
+    color: red;
+    background-color: blue;
+}
+
+/* This is Home hover dropdown-1  */
+
+.manu-div ul li ul {
+    position: absolute;
+    background-color: #34495e;
+    width: 200px;
+    top: 310%;
+    left: 6px;
+  
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: scaleY(0);
+    transform-origin: top center;
+
+  
+}
+
+.home-1-list{
+  border-top: 2px solid #ddd;
+}
+
+.manu-div ul li ul li{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.manu-div ul li ul li a{
+    display: block;
+    
+}
+.manu-div ul li ul li a:hover{}
+
+
+.full-website .manu-div ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+/* This is Home2 hover dropdown-2  */
+.manu2-div{
+    position: absolute;
+}
+
+
+.manu-div ul li ul li ul .manu2-div{
+background-color: rgb(99, 99, 126);
+position: absolute;
+top: -119px;
+left: 194px;
+width: 150px;
+opacity: 0;
+visibility: hidden;
+transform: scaleY(0);
+transform-origin: top center;
+transition: 1s;
+}
+.manu-div ul li ul li:hover ul .manu2-div{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.list-item-2top{
+    border-top: 2px solid #ddd;
+}
+.manu-div ul li ul li ul li a{}
+
+/* This is banner Section  */
+
+
+.banner-div{
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    background-image: url("https://i.ibb.co/2cs5jqj/photo-1490578474895-699cd4e2cf59.jpg");
+}
+.banner-div h1{
+    background-color: rgba(255, 255, 255, 0.654);
+    color: black;
+    display: inline-block;
+    margin-top: 200px;
+    padding: 10px;  
+}
+.banner-div h2{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    width: 950px;
+   /* padding-top: 10px; */
+    font-size: 25px;
+}
+.banner-div a{
+display: inline-block;
+margin-top: 20px;
+text-decoration: none;
+background-color: red;
+color: black;
+padding: 10px;
+transition: .5s;
+}
+.banner-div a:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.intro-div{
+    box-shadow: 0 0 20px #ddd;
+}
+.intro-div h1{
+    text-align: center;
+}
+.intro-div ul li{
+text-align: center;
+list-style-position: outside;   
+margin-bottom: 10px;
+}
+
+
+.intro-div2{
+    box-shadow: 0 0 20px #ddd;
+}
+.intro-div2 h1{
+    text-align: center;
+}
+.intro-div2 ul li{
+text-align: center;
+list-style-position: inside;   
+margin-bottom: 10px;
+}
+
+.contact-div{
+    margin-top: 30px;
+
+    background-color: #ddd;
+  
+    padding: 40px;
+}
+.contact-div form .email{
+
+ display: inline-block;
+ margin-left: 100px;
+ width: 500px;
+ padding: 10px;
+ border: none;
+ border-bottom: 2px solid red;
+ transition: .5s;
+ 
+}
+.contact-div form .email:hover{
+    border: 1px solid red;
+}
+.contact-div form a{ 
+    display: inline-block;
+    margin-top: px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+}
+.contact-div form a:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    display: inline-block;
+}
+.footer ul{
+
+}
+
+.footer2{
+    display: inline-block;
+margin-left: 30px;
+}
+.footer3{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* Thiis is social manu  */
+
+.social-manu{
+    width: 400px;
+    margin: auto;
+}
+
+.social-manu ul {
+text-align: center;
+}
+
+.social-manu ul li {
+    display: inline-block;
+    margin: 5px;    
+ 
+}
+
+.social-manu ul li a {
+    color: white;
+    background-color: #34495e;
+    margin-left: -3px;
+    padding: 10px;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    padding-top: 11px;
+}
+
+.social-manu ul li a:hover{}
